@@ -8,7 +8,6 @@ int main() {
     int numbers;
     int original; 
     int temp = 0;
-    
     original=numbers;
     
     cout<<"Enter the numbers to check : ";
@@ -27,6 +26,5 @@ int main() {
         cout<<"No, It's not palindrome";
     }
     cout<<endl;
-
     return 0;
 }
