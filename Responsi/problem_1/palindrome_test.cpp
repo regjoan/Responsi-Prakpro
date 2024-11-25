@@ -11,8 +11,9 @@ int main() {
     
     original=numbers;
     
-    // cout<<"Enter the numbers to check : ";
-    // cin>>numbers;
+    cout<<"Enter the numbers to check : ";
+    cout<<numbers;
+    cout<<endl;
     
     while(numbers>0){
         temp = (temp*10) + (numbers%10);
