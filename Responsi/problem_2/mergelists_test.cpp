@@ -1,4 +1,3 @@
-// Online C++ compiler to run C++ program online
 #include <iostream>
 using namespace std;
 
@@ -19,31 +18,30 @@ int main() {
     cout<<"Merge Two Sorted Lists"<<endl;
     cout<<"=============="<<endl;
     int x;
-    // cout<<"How many number you will type in the first list? ";
-    int n_first = 2;
+    cout<<"How many number you will type in the first list? ";
+    int n_first;
+    cin>>n_first;
     
-    // cout<<"How many number you will type in the second list? ";
-    int n_second = 2;
+    cout<<"How many number you will type in the second list? ";
+    int n_second;
+    cin>>n_second;
     
     int arr[n_first+n_second];
     
-    // cout<<"Enter the numbers in the first list : ";
+    cout<<"Enter the numbers in the first list : ";
     for(int i=0; i<n_first; i++){
-        int arr[i]={1, 5};
-        // cout<<arr[i];
+        cin>>arr[i];
     }
     
-    // cout<<"Enter the numbers in the second list : ";
+    cout<<"Enter the numbers in the second list : ";
     for(int i=n_first; i<n_first+n_second; i++){
-        int arr[i]={6, 9};
-        // cout<<arr[i];
+        cin>>arr[i];
     }
     
     bubble_sort;
     
     for(int i=0; i<n_first+n_second; i++){
-        int arr[i]={1, 5, 6, 9};
-        // cout<<arr[i];
+        cout<<arr[i]<<" ";
     }
     
     int i;
